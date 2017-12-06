@@ -1,5 +1,5 @@
 # curlfire
-Run curl with the current [Firefox](https://www.mozilla.org/en-US/firefox/) cookies. 
+Run curl with the current [Firefox](https://www.mozilla.org/en-US/firefox/) cookies.
 This is useful for interacting with logged in websites from the shell, without having to manually deal with the login process.
 
 The executable `cookiefire` included in this package can be used to extract the cookies from Firefox.
@@ -44,6 +44,12 @@ echo 'PATH=$PATH:~/curlfire' >> ~/.bashrc
 All of these approaches can be time consuming when automating tasks.
 
 [Prior to Firefox 57](https://support.mozilla.org/en-US/kb/frequently-asked-questions-firefox-addon), the [remote control extension](https://addons.mozilla.org/en-US/firefox/addon/remote-control/) could be used to interact with the page currently viewed in Firefox from the shell (including outputting the current [document object model](https://en.wikipedia.org/wiki/Document_Object_Model) as HTML).
+
+# Similar projects (and shameless advertising)
+Users of this project might also be interested in:
+
+* [clixpath](https://github.com/talwrii/clixpath) (by author) - an open-source tool for extracting information out of HTML documents in machine-readable JSON using [Xpath](https://www.w3.org/TR/1999/REC-xpath-19991116/).
+* [PhantomJs](http://phantomjs.org/) - a scriptable command-line only browser than can be used to [render the document object model in Javascript based-websites](https://stackoverflow.com/a/9978162) and output more easily processed HTML.
 
  # Copyright
 This code is distributed under [an MIT license](LICENSE).
