@@ -44,3 +44,7 @@ echo 'PATH=$PATH:~/curlfire' >> ~/.bashrc
 All of these approaches can be time consuming when automating tasks.
 
 [Prior to Firefox 57](https://support.mozilla.org/en-US/kb/frequently-asked-questions-firefox-addon), the [remote control extension](https://addons.mozilla.org/en-US/firefox/addon/remote-control/) could be used to interact with the page currently viewed in Firefox from the shell (including outputting the current [document object model](https://en.wikipedia.org/wiki/Document_Object_Model) as HTML).
+
+ # Copyright
+This code is distributed under [an MIT license](LICENSE).
+It contains code adapted from a code snippet in the aforementioned Stack Exchange answer which is also distributed under [an MIT license](SNIPPET-LICENSE) as [stipulated by the Stack Exchange terms and conditions](https://meta.stackexchange.com/questions/272956/a-new-code-license-the-mit-this-time-with-attribution-required).
