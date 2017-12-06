@@ -5,17 +5,9 @@ This is useful for interacting with logged in websites from the shell, without h
 The executable `cookiefire` included in this package can be used to extract the cookies from Firefox.
 
 # Attribution
-
 This code is adapted from [this Stack Exchange answer](https://superuser.com/a/1239036/653515) by [hackerb9](https://superuser.com/users/400780/hackerb9).
 
-# Caveats
-
-* Only tested on linux machines
-* Unlikely to work with windows
-* Will probably work on macs but untested (feedback welcome)
-
 # Usage
-
 ```
 # Fetch google with the cookies from the default profile
 curlfire http://www.google.com/
@@ -28,6 +20,11 @@ cookiefire > /tmp/cookies
 curl -b /tmp/cookies http://www.google.com/
 ```
 
+# Caveats
+* Only tested on linux machines
+* Unlikely to work with windows
+* Will probably work on macs but untested (feedback welcome)
+
 # Installation
 ```
 cd ~
@@ -36,7 +33,6 @@ echo 'PATH=$PATH:~/curlfire' >> ~/.bashrc
 ```
 
 # Alternatives and prior work
-
 * Adapted from [this Stack Exchange answer](https://superuser.com/questions/666167/how-do-i-use-firefox-cookies-with-wget)
 * Firebug and friends allow one to copy requests as curl commands. This can be suitable for debugging.
 * Cookies can be exported manually from within Firefox
