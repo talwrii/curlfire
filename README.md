@@ -8,6 +8,12 @@ The executable `cookiefire` included in this package can be used to extract the 
 
 This code is adapted from [this Stack Exchange answer](https://superuser.com/a/1239036/653515) by [hackerb9](https://superuser.com/users/400780/hackerb9).
 
+# Caveats
+
+* Only tested on linux machines
+* Unlikely to work with windows
+* Will probably work on macs but untested (feedback welcome)
+
 # Usage
 
 ```
@@ -32,7 +38,7 @@ echo 'PATH=$PATH:~/curlfire' >> ~/.bashrc
 # Alternatives and prior work
 
 * Adapted from [this Stack Exchange answer](https://superuser.com/questions/666167/how-do-i-use-firefox-cookies-with-wget)
-* Firebug and friends allow you to copy requests as curl. This can be suitable for debugging.
+* Firebug and friends allow one to copy requests as curl commands. This can be suitable for debugging.
 * Cookies can be exported manually from within Firefox
 
 All of these approaches can be time consuming when automating tasks.
