@@ -41,7 +41,7 @@ All of these approaches can be time consuming when automating tasks.
 
 [Prior to Firefox 57](https://support.mozilla.org/en-US/kb/frequently-asked-questions-firefox-addon), the [remote control extension](https://addons.mozilla.org/en-US/firefox/addon/remote-control/) could be used to interact with the page currently viewed in Firefox from the shell (including outputting the current [document object model](https://en.wikipedia.org/wiki/Document_Object_Model) as HTML).
 
-# Similar projects (and shameless advertising)
+# Complementary projects (and shameless advertising)
 Users of this project might also be interested in:
 
 * [clixpath](https://github.com/talwrii/clixpath) (by author) - an open-source tool for extracting information out of HTML documents in machine-readable JSON using [Xpath](https://www.w3.org/TR/1999/REC-xpath-19991116/).
