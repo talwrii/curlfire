@@ -4,6 +4,8 @@ This is useful for interacting with logged in websites from the shell, without h
 
 The executable `cookiefire` included in this package can be used to extract the cookies from Firefox.
 
+This is achieved by reading the **cookies.sqlite** file in Firefox profiles.
+
 # Attribution
 This code is adapted from [this Stack Exchange answer](https://superuser.com/a/1239036/653515) by [hackerb9](https://superuser.com/users/400780/hackerb9).
 
