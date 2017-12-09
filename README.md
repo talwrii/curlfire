@@ -21,6 +21,8 @@ curl -b /tmp/cookies http://www.google.com/
 ```
 
 # Caveats
+* **Does not work with session cookies**[(1)](https://support.mozilla.org/en-US/questions/899388
+) (you may be able to work around this by setting "Remember me" for the website with which you are using your tool)
 * Only tested on linux machines
 * Unlikely to work with windows
 * Will probably work on macs but untested (feedback welcome)
