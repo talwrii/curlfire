@@ -1,4 +1,6 @@
 # curlfire
+@readwithai - [X](https://x.com/reawithai) - [blog](https://readwithai.substack.com)
+
 Run curl with the current [Firefox](https://www.mozilla.org/en-US/firefox/) cookies.
 This is useful for interacting with logged in websites from the shell, without having to manually deal with the login process.
 
@@ -54,3 +56,10 @@ Users of this project might also be interested in:
  # Copyright
 This code is distributed under [an MIT license](LICENSE).
 It contains code adapted from a code snippet in the aforementioned Stack Exchange answer which is also distributed under [an MIT license](SNIPPET-LICENSE) as [stipulated by the Stack Exchange terms and conditions](https://meta.stackexchange.com/questions/272956/a-new-code-license-the-mit-this-time-with-attribution-required).
+
+# About me 
+I am [@readwithai](https://x.com/readwithai). I make tools for [productivity](https://readwithai.substack.com/p/obsidian-plugin-repl) and agency particularly related to deep reading and using [Obsidian](https://readwithai.substack.com/p/what-exactly-is-obsidian). If this sounds interesting you can follow me on [X](https://x.com/readwithai) or [substack](https://readwithai.substack.com). 
+
+If you find *this* piece of software useful you could consider paying me 5 dollars on my [ko-fi](https://ko-fi.com/readwithai).
+
+
