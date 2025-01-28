@@ -1,5 +1,5 @@
 # curlfire
-@readwithai - [X](https://x.com/reawithai) - [blog](https://readwithai.substack.com)
+@readwithai - [X](https://x.com/readwithai) - [blog](https://readwithai.substack.com)
 
 Run curl with the current [Firefox](https://www.mozilla.org/en-US/firefox/) cookies.
 This is useful for interacting with logged in websites from the shell, without having to manually deal with the login process.
