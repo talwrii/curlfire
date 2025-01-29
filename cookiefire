@@ -6,8 +6,6 @@ die() {
     exit 1
 }
 
-
-
 cleanup() {
     rm -f "$tmpfile"
 }
@@ -22,7 +20,6 @@ elif [ "$#" == "1"  ]; then
 else
     die "usage $0 [profile]"
 fi;
-
 
 extract_cookies() {
 
@@ -66,10 +63,13 @@ cleanup
 
 }
 
+if [[ $OSTYPE == 'darwin'* ]]; then
+  basedir='Library/Application Support/Firefox/Profiles'
+else
+  basedir='.mozilla/firefox'
+fi
+
 tmpfile="$(mktemp /tmp/cookies.sqlite.XXXXXXXXXX)"
-curlcookies="$(mktemp /tmp/curlcookies.XXXXXXXXXX)"
-echo $HOME/.mozilla/firefox/*.$profile/cookies.sqlite | { read cookie_file ;
-extract_cookies "$cookie_file" ;
-}
+cookie_file=$(find "${HOME}/${basedir}" -path "*.${profile}/cookies.sqlite" | head -1)
 
-
+extract_cookies "$cookie_file"
